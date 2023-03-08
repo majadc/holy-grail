@@ -1,0 +1,15 @@
+.holy-grail__sidebar {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 0.5em;
+
+  h4 {
+    text-align: center;
+  }
+}
+
+@include media-query-up (medium) {}
+
+@include media-query-up (large) {}
+
+@include media-query-up (x-large) {}

@@ -1,0 +1,13 @@
+.holy-grail-header {
+  padding: 1.25em 0;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-bottom: 1px solid var(--color-green-dark);
+  text-align: center;
+}
+
+@include media-query-up (medium) {}
+
+@include media-query-up (large) {}
+
+@include media-query-up (x-large) {}

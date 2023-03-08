@@ -1,0 +1,28 @@
+{
+  "name": "project-majadc-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint \"sass/**/*.scss\"",
+    "stylelint:fix": "stylelint --fix \"sass/**/*.scss\"",
+    "watch:sass": "sass --watch sass/style.scss:css/style_holy-grail.css",
+    "compile:sass": "sass --embed-sources sass/style.scss css/style_holy-grail.css",
+    "prefix:css": "postcss css/style_holy-grail.css --use autoprefixer -o css/style_holy-grail.css",
+    "compress:css": "cleancss --source-map -o css/style_holy-grail.css css/style_holy-grail.css",
+    "build:css": "npm-run-all compile:sass  prefix:css compress:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "clean-css": "^5.3.2",
+    "clean-css-cli": "^5.6.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard-scss": "^7.0.1"
+  }
+}

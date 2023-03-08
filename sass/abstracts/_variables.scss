@@ -1,0 +1,35 @@
+/// @type list
+
+
+
+/// colors
+/// @type Color
+.holy-grail {
+  --color-light: #F7F5FF;
+  --color-dark: #201F24;
+  --color-green-light: #BFDBC4;
+  --color-green-medium: #6DA56A;
+  --color-green-dark: #20241F;
+  --color-pink-light: #DBC1BF;
+  --color-pink-dark: #A56A71;
+  --color-yellow-light: #D9DBBF;
+}
+
+/// Container's maximum width
+/// @type  Length
+
+
+
+
+//// @type Map
+/// if 1rem = 16px => { 576px = 36em; 768px = 48em; 992px = 62em; 1200px = 75em; }
+$media-queries-up: (
+  'small': ("breakpoint": '(min-width: 36em)',
+  ),
+  'medium': ("breakpoint": '(min-width: 48em)',
+  ),
+  'large': ("breakpoint": '(min-width: 62em)',
+  ),
+  'x-large': ("breakpoint": '(min-width: 75em)',
+  )
+);

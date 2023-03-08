@@ -1,0 +1,23 @@
+.holy-grail-layout--flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.holy-grail__main, .holy-grail__sidebar {
+  flex: 1;
+}
+
+@include media-query-up (medium) {
+  .holy-grail-layout--flex {
+    flex-direction: row;
+  }
+
+  .holy-grail__sidebar {
+    flex: 0 0 20%;
+  }
+
+}
+
+@include media-query-up (large) {}
+
+@include media-query-up (x-large) {}

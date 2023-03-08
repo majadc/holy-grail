@@ -1,0 +1,14 @@
+.holy-grail__main {
+  background: linear-gradient(-70deg, var(--color-green-light), var(--color-yellow-light), var(--color-pink-light));
+  text-align: center;
+
+  h3 {
+    margin: 1em 0 1.5em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
